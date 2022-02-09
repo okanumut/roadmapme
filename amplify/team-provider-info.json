@@ -10,6 +10,11 @@
       "StackName": "amplify-roadmapme-dev-183517",
       "StackId": "arn:aws:cloudformation:eu-central-1:261028392535:stack/amplify-roadmapme-dev-183517/ba9382f0-88f4-11ec-bf83-02c5e70697e6",
       "AmplifyAppId": "d27f9gcvxx5s04"
+    },
+    "categories": {
+      "auth": {
+        "roadmapme262c4b83": {}
+      }
     }
   }
 }

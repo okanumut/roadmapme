@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom'
 import styled, { keyframes } from 'styled-components'
 import LogoComponent from '../subComponents/LogoComponent'
 import PowerButton from '../subComponents/PowerButton'
+import AuthPage from '../components/AuthPage'
 import SocialIcons from '../subComponents/SocialIcons'
 import { YinYang } from './AllSvgs'
 import Intro from './Intro'
@@ -47,7 +48,7 @@ z-index:1;
 `
 const WORK = styled(NavLink)`
 color: ${props => props.click ? props.theme.body : props.theme.text};
-
+font-family: 'Pacifico',cursive;
 position: absolute;
 top: 50%;
 left: calc(1rem + 2vw);
@@ -94,8 +95,10 @@ left: ${props => props.click ? '92%' :'50%'  };
 transform: translate(-50%,-50%);
 border: none;
 outline: none;
-background-color: transparent;
-cursor: pointer;
+background-color: red;
+width:160px;
+height:160px;
+//cursor: pointer;
 
 display: flex;
 flex-direction: column;
@@ -103,14 +106,14 @@ justify-content: center;
 align-items: center;
 transition: all 1s ease;
 
-&>:first-child{
-    animation: ${rotate} infinite 1.5s linear;
-}
+// &>:first-child{
+//     animation: ${rotate} infinite 1.5s linear;
+// }
 
-&>:last-child{
-    display: ${props => props.click ? 'none' :'inline-block'  };
-    padding-top: 1rem;
-}
+// &>:last-child{
+//     display: ${props => props.click ? 'none' :'inline-block'  };
+//     padding-top: 1rem;
+// }
 `
 
 const DarkDiv = styled.div`
@@ -143,6 +146,7 @@ const Main = () => {
             <Center click={click}>
                 {/* <YinYang  onClick={()=> handleClick()} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
                 <span>click here</span> */}
+                <AuthPage />
             </Center>
 
             <Contact target="_blank" to={{pathname:"mailto:codebucks27@gmail.com"}}>
