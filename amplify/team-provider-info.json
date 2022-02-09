@@ -1,15 +1,20 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-roadmapme-dev-183517-authRole",
-      "UnauthRoleArn": "arn:aws:iam::261028392535:role/amplify-roadmapme-dev-183517-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::261028392535:role/amplify-roadmapme-dev-183517-authRole",
+      "AuthRoleName": "amplify-roadmapme-dev-103951-authRole",
+      "UnauthRoleArn": "arn:aws:iam::261028392535:role/amplify-roadmapme-dev-103951-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::261028392535:role/amplify-roadmapme-dev-103951-authRole",
       "Region": "eu-central-1",
-      "DeploymentBucketName": "amplify-roadmapme-dev-183517-deployment",
-      "UnauthRoleName": "amplify-roadmapme-dev-183517-unauthRole",
-      "StackName": "amplify-roadmapme-dev-183517",
-      "StackId": "arn:aws:cloudformation:eu-central-1:261028392535:stack/amplify-roadmapme-dev-183517/ba9382f0-88f4-11ec-bf83-02c5e70697e6",
-      "AmplifyAppId": "d27f9gcvxx5s04"
+      "DeploymentBucketName": "amplify-roadmapme-dev-103951-deployment",
+      "UnauthRoleName": "amplify-roadmapme-dev-103951-unauthRole",
+      "StackName": "amplify-roadmapme-dev-103951",
+      "StackId": "arn:aws:cloudformation:eu-central-1:261028392535:stack/amplify-roadmapme-dev-103951/7caabdf0-897b-11ec-953f-06d343f1c416",
+      "AmplifyAppId": "d3c3tw1gz3tsg5"
+    },
+    "categories": {
+      "auth": {
+        "roadmapme71942f5e": {}
+      }
     }
   }
 }

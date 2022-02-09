@@ -5,6 +5,7 @@ import styled, { keyframes } from 'styled-components'
 import LogoComponent from '../subComponents/LogoComponent'
 import AuthPage from '../components/AuthPage'
 import PowerButton from '../subComponents/PowerButton'
+import AuthPage from '../components/AuthPage'
 import SocialIcons from '../subComponents/SocialIcons'
 import { YinYang } from './AllSvgs'
 import Intro from './Intro'
@@ -48,7 +49,7 @@ z-index:1;
 `
 const WORK = styled(NavLink)`
 color: ${props => props.click ? props.theme.body : props.theme.text};
-
+font-family: 'Pacifico',cursive;
 position: absolute;
 top: 50%;
 left: calc(1rem + 2vw);
@@ -96,7 +97,10 @@ transform: translate(-50%,-50%);
 border: none;
 outline: none;
 background-color: red;
+width:160px;
+height:160px;
 //cursor: pointer;
+
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -105,11 +109,9 @@ transition: all 1s ease;
 width:150px;
 height:150px;
 
-
 // &>:first-child{
 //     animation: ${rotate} infinite 1.5s linear;
 // }
-
 // &>:last-child{
 //     display: ${props => props.click ? 'none' :'inline-block'  };
 //     padding-top: 1rem;
